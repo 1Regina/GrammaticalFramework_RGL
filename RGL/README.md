@@ -24,3 +24,7 @@ Help needed and Notes:
 5. b: in RGL/NanoRGL.gf, NanoRGLChi.gf, NanoRGLEng.gf, NanoRGLIta.gf, the lin and cat and function are the simplest to generate "this dog" vs "these dogs".
    
 6. in rgl-tutorial/lesson1/NanoRGLIta.gf and RGL//NanoRGLIta.gf created a concrete that uses gender and number. Check out the oper and lin DetN arguments.
+
+7. in rgl-tutorial/lesson4/NanoAPIEng.gf, able to do `i -retain NanoAPIEng.gf` and tested with `cc mkN "cake"` and `cc mkN "child" "children"` with mkN taken from oper noun and regNoun.
+8. in rgl-tutorial/lesson4/NanoAPIEng.gf, why cant I replace  `mkN : Str -> Str -> {s : Number => Str}`   with ` mkN : Str -> Str -> N` since lincat in `rgl-tutorial/lesson1/NanoRGLEng.gf` shows `N = {s : Number => Str}` (Yes i should. Note the missing lock field in terminal so need to further rectify . See comments in  NanoAPIEng.gf for adding lin N)
+9. in rgl-tutorial/lesson4/NanoAPIEng.gf, 2nd instance of mkN in mkN overload, where does this noun come from  ` \car -> noun car (car + "s")`  ( from lesson1. See top line)
