@@ -1,0 +1,12 @@
+import MiniGrammarEng.gf
+
+l PosPresPredVP (MassNP (AdjCN (PositA blue_A) (UseN water_N))) (UseComp (CompAP (PositA blue_A)))
+l PosPresPredVP (MassNP (AdjCN (PositA blue_A) (UseN water_N))) (UseComp (CompAP (PositA cold_A)))
+l PosPresPredVP (MassNP (AdjCN (PositA blue_A) (UseN water_N))) (UseComp (CompNP (MassNP (UseN water_N))))
+l PosPresPredVP (MassNP (AdjCN (PositA blue_A) (UseN water_N))) (UseV sleep_V)
+l PosPresPredVP (MassNP (AdjCN (PositA cold_A) (UseN water_N))) (UseComp (CompAP (PositA blue_A)))
+l PosPresPredVP (MassNP (AdjCN (PositA cold_A) (UseN water_N))) (UseComp (CompAP (PositA cold_A)))
+l PosPresPredVP (MassNP (AdjCN (PositA cold_A) (UseN water_N))) (UseComp (CompNP (MassNP (UseN water_N))))
+l PosPresPredVP (MassNP (AdjCN (PositA cold_A) (UseN water_N))) (UseV sleep_V)
+l PosPresPredVP (MassNP (AdjCN (PositA blue_A) (UseN water_N))) (UseComp (CompAP (AdvAP (PositA cold_A) today_Adv)))
+l PosPresPredVP (MassNP (AdjCN (PositA cold_A) (UseN water_N))) (UseComp (CompAP (AdvAP (PositA blue_A) today_Adv)))

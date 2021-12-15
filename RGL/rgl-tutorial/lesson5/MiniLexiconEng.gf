@@ -29,7 +29,8 @@ concrete MiniLexiconEng of MiniLexicon = MiniCatEng ** {
 
     mkA = overload {
       mkA : (attr, pred : Str) -> MiniCatEng.Adjective = mkA_Full;
-      mkA : Str -> MiniCatEng.Adjective = \attr -> mkA_Full attr attr
+
+      mkA : Str -> MiniCatEng.Adjective = \attr -> mkA_Full attr attr -- for original cold_A = mkA "cold" "cold"
     };
 
   }
